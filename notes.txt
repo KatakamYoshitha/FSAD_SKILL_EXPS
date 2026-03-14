@@ -1,1 +1,2 @@
 Git Version Control
+Bug fix applied in project
