@@ -1,0 +1,111 @@
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Page background */
+body{
+  background:#f4f6fb;
+}
+
+/* Main heading */
+h1{
+  text-align:center;
+  padding:20px;
+  background:#0d6efd;
+  color:white;
+  margin-bottom:20px;
+}
+
+/* Section titles */
+h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#333;
+}
+
+/* Dashboard container */
+.dashboard{
+  text-align:center;
+  margin-top:40px;
+}
+
+/* Buttons */
+button{
+  background:#0d6efd;
+  color:white;
+  border:none;
+  padding:10px 18px;
+  margin:10px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:14px;
+  transition:0.3s;
+}
+
+button:hover{
+  background:#084298;
+}
+
+/* Container for cards */
+.container{
+  width:80%;
+  margin:auto;
+}
+
+/* Card style */
+.card{
+  background:white;
+  padding:18px;
+  margin:15px auto;
+  border-radius:10px;
+  width:80%;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+  transition:0.3s;
+}
+
+/* Card hover effect */
+.card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 18px rgba(0,0,0,0.12);
+}
+
+/* Card text */
+.card p{
+  margin:5px 0;
+  color:#444;
+}
+
+/* Title inside cards */
+.card h4{
+  margin-bottom:8px;
+  color:#0d6efd;
+}
+
+/* Refresh button */
+.refresh-btn{
+  display:block;
+  margin:20px auto;
+}
+
+/* Back button */
+.back-btn{
+  display:block;
+  margin:30px auto;
+  background:#198754;
+}
+
+.back-btn:hover{
+  background:#146c43;
+}
+
+/* Loading / error messages */
+.message{
+  text-align:center;
+  margin-top:40px;
+  font-size:18px;
+  color:#555;
+}
